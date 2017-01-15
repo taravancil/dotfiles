@@ -1,0 +1,32 @@
+alias ..="cd .."
+alias ...="cd ../.."
+alias ~="cd ~"
+alias docs="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias src="cd ~/src"
+
+alias ll="ls -ah"
+alias cp="cp-iv"
+alias mv="mv -iv"
+alias mkdir="mkdir -pv"
+alias c="clear"
+alias diff="diff -s"
+alias grep="grep -P --color=always"
+alias path="echo -e ${PATH//:\\n}"
+
+# git
+alias g="git status"
+alias gl="git log"
+alias ga="git add"
+alias gr="git reset --soft HEAD"
+alias gc="git commit"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gb="git branch"
+alias gco="git checkout"
+
+# flush DNS cache
+alias flushdns="sudo killall -HUP mDNSResponder"
+
+# open tmux with color support
+alias tmux="tmux -2"
